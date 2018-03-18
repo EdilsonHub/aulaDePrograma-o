@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.lupa {
+  background-image: url('../../../../search_icon-icons.com_74448(1).png');
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+
+
+}

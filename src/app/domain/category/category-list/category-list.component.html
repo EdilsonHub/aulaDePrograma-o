@@ -1,0 +1,30 @@
+<div class="col-md-12">
+  <div class="table-responsive">
+    <table class="table table-bordered ">
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>Coluna 01</th>
+        <th>Vizialização</th>
+
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Edilson</td>
+          <td><button [routerLink]="['/category/view']" class="btn btn-deafult lupa" type="button" name="button"></button></td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Flávia </td>
+        <td><button  [routerLink]="['/category/view']" type="button" class="lupa" name="button"></button></td>
+        </tr>
+
+      </tbody>
+      <tfoot>
+
+        <button  [routerLink]="['/category/form/']" type="button" name="button">Cadastrar</button>
+      </tfoot>
+    </table>
+  </div>
+</div>
